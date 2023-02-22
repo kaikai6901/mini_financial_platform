@@ -1,0 +1,1 @@
+# mini_financial_platform

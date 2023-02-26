@@ -1,0 +1,315 @@
+[2023-02-26 16:52:12,782] {processor.py:153} INFO - Started process (PID=208) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:12,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:52:12,784] {logging_mixin.py:115} INFO - [2023-02-26 16:52:12,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:12,803] {logging_mixin.py:115} INFO - [2023-02-26 16:52:12,801] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:52:12,804] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:12,851] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.076 seconds
+[2023-02-26 16:52:43,023] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:43,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:52:43,023] {logging_mixin.py:115} INFO - [2023-02-26 16:52:43,023] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:43,029] {logging_mixin.py:115} INFO - [2023-02-26 16:52:43,028] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:52:43,029] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:52:43,045] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.025 seconds
+[2023-02-26 16:53:13,221] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:13,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:53:13,222] {logging_mixin.py:115} INFO - [2023-02-26 16:53:13,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:13,227] {logging_mixin.py:115} INFO - [2023-02-26 16:53:13,227] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:53:13,227] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:13,242] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.023 seconds
+[2023-02-26 16:53:43,376] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:43,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:53:43,377] {logging_mixin.py:115} INFO - [2023-02-26 16:53:43,377] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:43,382] {logging_mixin.py:115} INFO - [2023-02-26 16:53:43,381] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:53:43,382] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:53:43,396] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.021 seconds
+[2023-02-26 16:54:13,520] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:13,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:54:13,520] {logging_mixin.py:115} INFO - [2023-02-26 16:54:13,520] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:13,525] {logging_mixin.py:115} INFO - [2023-02-26 16:54:13,525] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:54:13,526] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:13,542] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.025 seconds
+[2023-02-26 16:54:43,721] {processor.py:153} INFO - Started process (PID=322) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:43,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:54:43,722] {logging_mixin.py:115} INFO - [2023-02-26 16:54:43,722] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:43,726] {logging_mixin.py:115} INFO - [2023-02-26 16:54:43,726] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:54:43,726] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:54:43,741] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.022 seconds
+[2023-02-26 16:55:13,904] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:13,905] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:55:13,906] {logging_mixin.py:115} INFO - [2023-02-26 16:55:13,905] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:13,911] {logging_mixin.py:115} INFO - [2023-02-26 16:55:13,911] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:55:13,911] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:13,928] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.025 seconds
+[2023-02-26 16:55:44,081] {processor.py:153} INFO - Started process (PID=362) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:44,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:55:44,082] {logging_mixin.py:115} INFO - [2023-02-26 16:55:44,082] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:44,086] {logging_mixin.py:115} INFO - [2023-02-26 16:55:44,086] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:55:44,087] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:55:44,101] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.023 seconds
+[2023-02-26 16:56:14,254] {processor.py:153} INFO - Started process (PID=382) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:14,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:56:14,255] {logging_mixin.py:115} INFO - [2023-02-26 16:56:14,255] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:14,260] {logging_mixin.py:115} INFO - [2023-02-26 16:56:14,259] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:56:14,260] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:14,276] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.024 seconds
+[2023-02-26 16:56:44,420] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:44,421] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:56:44,421] {logging_mixin.py:115} INFO - [2023-02-26 16:56:44,421] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:44,426] {logging_mixin.py:115} INFO - [2023-02-26 16:56:44,425] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:56:44,426] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:56:44,441] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.022 seconds
+[2023-02-26 16:57:14,610] {processor.py:153} INFO - Started process (PID=422) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:14,611] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:57:14,611] {logging_mixin.py:115} INFO - [2023-02-26 16:57:14,611] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:14,615] {logging_mixin.py:115} INFO - [2023-02-26 16:57:14,615] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:57:14,616] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:14,630] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.023 seconds
+[2023-02-26 16:57:44,774] {processor.py:153} INFO - Started process (PID=447) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:44,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:57:44,775] {logging_mixin.py:115} INFO - [2023-02-26 16:57:44,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:44,780] {logging_mixin.py:115} INFO - [2023-02-26 16:57:44,779] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:57:44,780] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:57:44,795] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.023 seconds
+[2023-02-26 16:58:14,929] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:14,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:58:14,930] {logging_mixin.py:115} INFO - [2023-02-26 16:58:14,930] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:14,935] {logging_mixin.py:115} INFO - [2023-02-26 16:58:14,934] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_price_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_price_dag.py", line 7, in <module>
+    from scripts.get_price import *
+  File "/opt/airflow/dags/scripts/get_price.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-02-26 16:58:14,935] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:14,950] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.023 seconds
+[2023-02-26 16:58:45,902] {processor.py:153} INFO - Started process (PID=497) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:45,903] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:58:45,903] {logging_mixin.py:115} INFO - [2023-02-26 16:58:45,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:46,189] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:58:46,248] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,248] {manager.py:508} INFO - Created Permission View: can read on DAG:get_price_board
+[2023-02-26 16:58:46,256] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,256] {manager.py:508} INFO - Created Permission View: can edit on DAG:get_price_board
+[2023-02-26 16:58:46,263] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,263] {manager.py:508} INFO - Created Permission View: can delete on DAG:get_price_board
+[2023-02-26 16:58:46,263] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,263] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 16:58:46,269] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,269] {dag.py:2390} INFO - Creating ORM DAG for get_price_board
+[2023-02-26 16:58:46,281] {logging_mixin.py:115} INFO - [2023-02-26 16:58:46,281] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-23T09:00:00+00:00, run_after=2023-02-24T09:00:00+00:00
+[2023-02-26 16:58:46,295] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.395 seconds
+[2023-02-26 16:59:16,355] {processor.py:153} INFO - Started process (PID=518) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:16,356] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:59:16,356] {logging_mixin.py:115} INFO - [2023-02-26 16:59:16,356] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:16,628] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:16,643] {logging_mixin.py:115} INFO - [2023-02-26 16:59:16,642] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 16:59:16,659] {logging_mixin.py:115} INFO - [2023-02-26 16:59:16,659] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-23T09:00:00+00:00, run_after=2023-02-24T09:00:00+00:00
+[2023-02-26 16:59:16,671] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.318 seconds
+[2023-02-26 16:59:47,167] {processor.py:153} INFO - Started process (PID=545) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:47,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 16:59:47,168] {logging_mixin.py:115} INFO - [2023-02-26 16:59:47,168] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:47,429] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 16:59:47,443] {logging_mixin.py:115} INFO - [2023-02-26 16:59:47,443] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 16:59:47,459] {logging_mixin.py:115} INFO - [2023-02-26 16:59:47,459] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-23T09:00:00+00:00, run_after=2023-02-24T09:00:00+00:00
+[2023-02-26 16:59:47,470] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.304 seconds
+[2023-02-26 17:00:17,693] {processor.py:153} INFO - Started process (PID=566) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:17,694] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:00:17,695] {logging_mixin.py:115} INFO - [2023-02-26 17:00:17,695] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:17,988] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:18,006] {logging_mixin.py:115} INFO - [2023-02-26 17:00:18,005] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:00:18,027] {logging_mixin.py:115} INFO - [2023-02-26 17:00:18,027] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-23T09:00:00+00:00, run_after=2023-02-24T09:00:00+00:00
+[2023-02-26 17:00:18,039] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.348 seconds
+[2023-02-26 17:00:49,146] {processor.py:153} INFO - Started process (PID=612) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:49,223] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:00:49,223] {logging_mixin.py:115} INFO - [2023-02-26 17:00:49,223] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:49,555] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:00:49,570] {logging_mixin.py:115} INFO - [2023-02-26 17:00:49,569] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:00:49,588] {logging_mixin.py:115} INFO - [2023-02-26 17:00:49,588] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:00:49,601] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.458 seconds
+[2023-02-26 17:01:19,971] {processor.py:153} INFO - Started process (PID=635) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:19,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:01:19,972] {logging_mixin.py:115} INFO - [2023-02-26 17:01:19,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:20,319] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:20,338] {logging_mixin.py:115} INFO - [2023-02-26 17:01:20,337] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:01:20,363] {logging_mixin.py:115} INFO - [2023-02-26 17:01:20,363] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:01:20,373] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.404 seconds
+[2023-02-26 17:01:50,842] {processor.py:153} INFO - Started process (PID=659) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:50,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:01:50,843] {logging_mixin.py:115} INFO - [2023-02-26 17:01:50,843] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:51,161] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:01:51,180] {logging_mixin.py:115} INFO - [2023-02-26 17:01:51,179] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:01:51,203] {logging_mixin.py:115} INFO - [2023-02-26 17:01:51,202] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:01:51,213] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.372 seconds
+[2023-02-26 17:02:22,079] {processor.py:153} INFO - Started process (PID=686) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:22,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:02:22,080] {logging_mixin.py:115} INFO - [2023-02-26 17:02:22,080] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:22,343] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:22,357] {logging_mixin.py:115} INFO - [2023-02-26 17:02:22,357] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:02:22,374] {logging_mixin.py:115} INFO - [2023-02-26 17:02:22,373] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:02:22,385] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.307 seconds
+[2023-02-26 17:02:52,865] {processor.py:153} INFO - Started process (PID=710) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:52,865] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:02:52,866] {logging_mixin.py:115} INFO - [2023-02-26 17:02:52,866] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:53,147] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:02:53,160] {logging_mixin.py:115} INFO - [2023-02-26 17:02:53,160] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:02:53,176] {logging_mixin.py:115} INFO - [2023-02-26 17:02:53,176] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:02:53,187] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.325 seconds
+[2023-02-26 17:03:23,409] {processor.py:153} INFO - Started process (PID=731) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:23,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:03:23,410] {logging_mixin.py:115} INFO - [2023-02-26 17:03:23,410] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:23,705] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:23,720] {logging_mixin.py:115} INFO - [2023-02-26 17:03:23,720] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:03:23,738] {logging_mixin.py:115} INFO - [2023-02-26 17:03:23,738] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:03:23,747] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.340 seconds
+[2023-02-26 17:03:54,219] {processor.py:153} INFO - Started process (PID=755) to work on /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:54,219] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_price_dag.py for tasks to queue
+[2023-02-26 17:03:54,219] {logging_mixin.py:115} INFO - [2023-02-26 17:03:54,219] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:54,516] {processor.py:651} INFO - DAG(s) dict_keys(['get_price_board']) retrieved from /opt/airflow/dags/get_price_dag.py
+[2023-02-26 17:03:54,530] {logging_mixin.py:115} INFO - [2023-02-26 17:03:54,530] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-26 17:03:54,548] {logging_mixin.py:115} INFO - [2023-02-26 17:03:54,548] {dag.py:2919} INFO - Setting next_dagrun for get_price_board to 2023-02-25T09:00:00+00:00, run_after=2023-02-27T09:00:00+00:00
+[2023-02-26 17:03:54,559] {processor.py:161} INFO - Processing /opt/airflow/dags/get_price_dag.py took 0.342 seconds

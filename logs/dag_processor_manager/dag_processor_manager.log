@@ -20997,3 +20997,276 @@ File Path                                      PID    Runtime      # DAGs    # E
 /opt/airflow/dags/get_price_dag.py                                      1           0  0.38s           2023-02-24T11:17:09
 /opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.37s           2023-02-24T11:17:07
 ================================================================================
+[2023-02-26 16:52:12,523] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2023-02-26 16:52:12,524] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2023-02-26 16:52:12,524] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-02-26 16:52:12,524] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-02-26 16:52:12,536] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-02-26 16:52:12,647] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/get_financial_ratio_dag.py     194  0.04s             0           0
+/opt/airflow/dags/get_financial_report_dag.py                           0           0
+/opt/airflow/dags/get_price_dag.py                                      0           0
+/opt/airflow/dags/get_market_over_view_dag.py    197  0.03s             0           0
+================================================================================
+[2023-02-26 16:52:42,965] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     215  0.02s             0           1  0.15s           2023-02-26T16:52:12
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.11s           2023-02-26T16:52:12
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.11s           2023-02-26T16:52:12
+/opt/airflow/dags/get_market_over_view_dag.py    218  0.01s             0           1  0.15s           2023-02-26T16:52:12
+================================================================================
+[2023-02-26 16:53:13,145] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     235  0.02s             0           1  0.05s           2023-02-26T16:52:42
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.04s           2023-02-26T16:52:43
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.04s           2023-02-26T16:52:43
+/opt/airflow/dags/get_market_over_view_dag.py    238  0.01s             0           1  0.06s           2023-02-26T16:52:43
+================================================================================
+[2023-02-26 16:53:43,302] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     261  0.01s             0           1  0.06s           2023-02-26T16:53:13
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:53:13
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:53:13
+/opt/airflow/dags/get_market_over_view_dag.py    264  0.00s             0           1  0.04s           2023-02-26T16:53:13
+================================================================================
+[2023-02-26 16:54:13,471] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     287  0.01s             0           1  0.04s           2023-02-26T16:53:43
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:53:43
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:53:43
+/opt/airflow/dags/get_market_over_view_dag.py    290  0.00s             0           1  0.04s           2023-02-26T16:53:43
+================================================================================
+[2023-02-26 16:54:43,648] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     307  0.01s             0           1  0.05s           2023-02-26T16:54:13
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.04s           2023-02-26T16:54:13
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.04s           2023-02-26T16:54:13
+/opt/airflow/dags/get_market_over_view_dag.py    310  0.01s             0           1  0.04s           2023-02-26T16:54:13
+================================================================================
+[2023-02-26 16:55:13,818] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     327  0.01s             0           1  0.05s           2023-02-26T16:54:43
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:54:43
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:54:43
+/opt/airflow/dags/get_market_over_view_dag.py    330  0.01s             0           1  0.04s           2023-02-26T16:54:43
+================================================================================
+[2023-02-26 16:55:43,997] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     347  0.02s             0           1  0.05s           2023-02-26T16:55:13
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.04s           2023-02-26T16:55:13
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.04s           2023-02-26T16:55:13
+/opt/airflow/dags/get_market_over_view_dag.py    350  0.01s             0           1  0.05s           2023-02-26T16:55:13
+================================================================================
+[2023-02-26 16:56:14,173] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     367  0.02s             0           1  0.06s           2023-02-26T16:55:44
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.04s           2023-02-26T16:55:44
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.04s           2023-02-26T16:55:44
+/opt/airflow/dags/get_market_over_view_dag.py    370  0.01s             0           1  0.05s           2023-02-26T16:55:44
+================================================================================
+[2023-02-26 16:56:44,340] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     387  0.01s             0           1  0.06s           2023-02-26T16:56:14
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.04s           2023-02-26T16:56:14
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.04s           2023-02-26T16:56:14
+/opt/airflow/dags/get_market_over_view_dag.py    390  0.01s             0           1  0.04s           2023-02-26T16:56:14
+================================================================================
+[2023-02-26 16:57:13,494] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-02-26 16:57:13,501] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-02-26 16:57:14,532] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     407  0.01s             0           1  0.05s           2023-02-26T16:56:44
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:56:44
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:56:44
+/opt/airflow/dags/get_market_over_view_dag.py    410  0.01s             0           1  0.05s           2023-02-26T16:56:44
+================================================================================
+[2023-02-26 16:57:44,696] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     432  0.02s             0           1  0.05s           2023-02-26T16:57:14
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:57:14
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:57:14
+/opt/airflow/dags/get_market_over_view_dag.py    435  0.01s             0           1  0.05s           2023-02-26T16:57:14
+================================================================================
+[2023-02-26 16:58:14,851] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     453  0.01s             0           1  0.06s           2023-02-26T16:57:44
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:57:44
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:57:44
+/opt/airflow/dags/get_market_over_view_dag.py    456  0.00s             0           1  0.04s           2023-02-26T16:57:44
+================================================================================
+[2023-02-26 16:58:45,021] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py     479  0.02s             0           1  0.04s           2023-02-26T16:58:14
+/opt/airflow/dags/get_financial_report_dag.py                           0           1  0.03s           2023-02-26T16:58:14
+/opt/airflow/dags/get_price_dag.py                                      0           1  0.03s           2023-02-26T16:58:14
+/opt/airflow/dags/get_market_over_view_dag.py    482  0.01s             0           1  0.04s           2023-02-26T16:58:14
+================================================================================
+[2023-02-26 16:59:15,376] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.51s           2023-02-26T16:58:45
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.39s           2023-02-26T16:58:45
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.41s           2023-02-26T16:58:46
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.49s           2023-02-26T16:58:45
+================================================================================
+[2023-02-26 16:59:45,432] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.37s           2023-02-26T16:59:16
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.35s           2023-02-26T16:59:16
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.33s           2023-02-26T16:59:16
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.34s           2023-02-26T16:59:16
+================================================================================
+[2023-02-26 17:00:15,537] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.37s           2023-02-26T16:59:46
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.35s           2023-02-26T16:59:47
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.32s           2023-02-26T16:59:47
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.37s           2023-02-26T16:59:46
+================================================================================
+[2023-02-26 17:00:46,109] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.45s           2023-02-26T17:00:17
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.38s           2023-02-26T17:00:18
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.37s           2023-02-26T17:00:18
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.43s           2023-02-26T17:00:17
+================================================================================
+[2023-02-26 17:01:16,489] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.91s           2023-02-26T17:00:49
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.40s           2023-02-26T17:00:49
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.48s           2023-02-26T17:00:49
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.90s           2023-02-26T17:00:49
+================================================================================
+[2023-02-26 17:01:47,437] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.46s           2023-02-26T17:01:19
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.42s           2023-02-26T17:01:20
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.42s           2023-02-26T17:01:20
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.45s           2023-02-26T17:01:19
+================================================================================
+[2023-02-26 17:02:14,284] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2023-02-26 17:02:14,295] {manager.py:687} INFO - There are 4 files in /opt/airflow/dags
+[2023-02-26 17:02:18,321] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.38s           2023-02-26T17:01:50
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.39s           2023-02-26T17:01:51
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.39s           2023-02-26T17:01:51
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.38s           2023-02-26T17:01:50
+================================================================================
+[2023-02-26 17:02:48,453] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.37s           2023-02-26T17:02:21
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.37s           2023-02-26T17:02:22
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.32s           2023-02-26T17:02:22
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.36s           2023-02-26T17:02:21
+================================================================================
+[2023-02-26 17:03:18,929] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.37s           2023-02-26T17:02:52
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.33s           2023-02-26T17:02:52
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.34s           2023-02-26T17:02:53
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.36s           2023-02-26T17:02:52
+================================================================================
+[2023-02-26 17:03:49,816] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/get_financial_ratio_dag.py                            1           0  0.46s           2023-02-26T17:03:23
+/opt/airflow/dags/get_financial_report_dag.py                           1           0  0.38s           2023-02-26T17:03:23
+/opt/airflow/dags/get_price_dag.py                                      1           0  0.36s           2023-02-26T17:03:23
+/opt/airflow/dags/get_market_over_view_dag.py                           1           0  0.41s           2023-02-26T17:03:23
+================================================================================

@@ -78,3 +78,36 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='wichart.vn', port
 [2023-02-24 08:26:42,935] {standard_task_runner.py:97} ERROR - Failed to execute job 3 for task push_market_overview (HTTPSConnectionPool(host='wichart.vn', port=443): Max retries exceeded with url: /wichartapi/wichart/price?type=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa7b2ce7e10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 11761)
 [2023-02-24 08:26:42,971] {local_task_job.py:156} INFO - Task exited with return code 1
 [2023-02-24 08:26:43,068] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-02-26 17:00:20,668] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-24T05:05:00+00:00 [queued]>
+[2023-02-26 17:00:20,689] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-24T05:05:00+00:00 [queued]>
+[2023-02-26 17:00:20,689] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-26 17:00:20,690] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-26 17:00:20,690] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-26 17:00:20,713] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): push_market_overview> on 2023-02-24 05:05:00+00:00
+[2023-02-26 17:00:20,722] {standard_task_runner.py:52} INFO - Started process 592 to run task
+[2023-02-26 17:00:20,726] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'get_market_overview', 'push_market_overview', 'scheduled__2023-02-24T05:05:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/get_market_over_view_dag.py', '--cfg-path', '/tmp/tmpqjoo1203', '--error-file', '/tmp/tmpzevtrch1']
+[2023-02-26 17:00:20,727] {standard_task_runner.py:80} INFO - Job 4: Subtask push_market_overview
+[2023-02-26 17:00:20,799] {task_command.py:369} INFO - Running <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-24T05:05:00+00:00 [running]> on host 5b61798a1106
+[2023-02-26 17:00:20,928] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_market_overview
+AIRFLOW_CTX_TASK_ID=push_market_overview
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-24T05:05:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-24T05:05:00+00:00
+[2023-02-26 17:00:21,797] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-VN-INDEX' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:22,067] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-HNX-INDEX' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:23,457] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-FTSE 100' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:24,113] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-KOSPI' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:24,452] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-Shanghai' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:27,345] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-Bitcoin' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:28,617] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-EUR/USD' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:29,164] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-GBP/USD' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:29,468] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-26 00:00:00-USD/JPY' for key 'market_overview.PRIMARY'")
+[2023-02-26 17:00:29,468] {logging_mixin.py:115} INFO - DONE!!!
+[2023-02-26 17:00:29,469] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-26 17:00:29,484] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_market_overview, task_id=push_market_overview, execution_date=20230224T050500, start_date=20230226T170020, end_date=20230226T170029
+[2023-02-26 17:00:29,532] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-26 17:00:29,558] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1006,3 +1006,26 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-23T09:00:00+00:00
 [2023-02-24 09:16:07,972] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_price_board, task_id=push_price_board, execution_date=20230223T090000, start_date=20230224T090000, end_date=20230224T091607
 [2023-02-24 09:16:08,010] {local_task_job.py:156} INFO - Task exited with return code 0
 [2023-02-24 09:16:08,030] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-02-26 17:00:20,658] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_price_board.push_price_board scheduled__2023-02-23T09:00:00+00:00 [queued]>
+[2023-02-26 17:00:20,675] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_price_board.push_price_board scheduled__2023-02-23T09:00:00+00:00 [queued]>
+[2023-02-26 17:00:20,676] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-26 17:00:20,676] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-26 17:00:20,676] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-26 17:00:20,708] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): push_price_board> on 2023-02-23 09:00:00+00:00
+[2023-02-26 17:00:20,715] {standard_task_runner.py:52} INFO - Started process 590 to run task
+[2023-02-26 17:00:20,719] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'get_price_board', 'push_price_board', 'scheduled__2023-02-23T09:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/get_price_dag.py', '--cfg-path', '/tmp/tmpmqv0dxb6', '--error-file', '/tmp/tmpmmlf_gqa']
+[2023-02-26 17:00:20,719] {standard_task_runner.py:80} INFO - Job 3: Subtask push_price_board
+[2023-02-26 17:00:20,799] {task_command.py:369} INFO - Running <TaskInstance: get_price_board.push_price_board scheduled__2023-02-23T09:00:00+00:00 [running]> on host 5b61798a1106
+[2023-02-26 17:00:20,923] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_price_board
+AIRFLOW_CTX_TASK_ID=push_price_board
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-23T09:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-23T09:00:00+00:00
+[2023-02-26 17:00:24,239] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-26 17:00:24,285] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_price_board, task_id=push_price_board, execution_date=20230223T090000, start_date=20230226T170020, end_date=20230226T170024
+[2023-02-26 17:00:24,310] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-26 17:00:24,357] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

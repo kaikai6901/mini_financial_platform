@@ -1,0 +1,36 @@
+[2023-02-23 11:57:00,000] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-01-16T17:00:00+00:00 [queued]>
+[2023-02-23 11:57:00,051] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-01-16T17:00:00+00:00 [queued]>
+[2023-02-23 11:57:00,051] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 11:57:00,051] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-23 11:57:00,051] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 11:57:00,116] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): push_market_overview> on 2023-01-16 17:00:00+00:00
+[2023-02-23 11:57:00,128] {standard_task_runner.py:52} INFO - Started process 669 to run task
+[2023-02-23 11:57:00,145] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'get_market_overview', 'push_market_overview', 'scheduled__2023-01-16T17:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/get_market_over_view_dag.py', '--cfg-path', '/tmp/tmpik5xpfu0', '--error-file', '/tmp/tmphkabfjbs']
+[2023-02-23 11:57:00,147] {standard_task_runner.py:80} INFO - Job 9: Subtask push_market_overview
+[2023-02-23 11:57:00,315] {task_command.py:369} INFO - Running <TaskInstance: get_market_overview.push_market_overview scheduled__2023-01-16T17:00:00+00:00 [running]> on host 003d565768d2
+[2023-02-23 11:57:00,726] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_market_overview
+AIRFLOW_CTX_TASK_ID=push_market_overview
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-16T17:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-16T17:00:00+00:00
+[2023-02-23 11:57:02,805] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-DAX' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:03,085] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-FTSE 100' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:03,885] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Shanghai' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:04,433] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Crude Oil (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:04,681] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Gold (USD/t oz)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:06,281] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Cotton (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:06,705] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Bitcoin' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:06,948] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Dollar Index' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:07,224] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/VND' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:07,469] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/CNY' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:08,130] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/RUB' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:08,385] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-GBP/USD' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:08,637] {logging_mixin.py:115} INFO - DONE!!!
+[2023-02-23 11:57:08,637] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-23 11:57:08,656] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_market_overview, task_id=push_market_overview, execution_date=20230116T170000, start_date=20230223T115700, end_date=20230223T115708
+[2023-02-23 11:57:08,691] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-23 11:57:08,732] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,47 @@
+[2023-02-23 11:57:49,981] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-15T17:00:00+00:00 [queued]>
+[2023-02-23 11:57:49,999] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-15T17:00:00+00:00 [queued]>
+[2023-02-23 11:57:49,999] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 11:57:49,999] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-23 11:57:49,999] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-23 11:57:50,041] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): push_market_overview> on 2023-02-15 17:00:00+00:00
+[2023-02-23 11:57:50,052] {standard_task_runner.py:52} INFO - Started process 772 to run task
+[2023-02-23 11:57:50,061] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'get_market_overview', 'push_market_overview', 'scheduled__2023-02-15T17:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/get_market_over_view_dag.py', '--cfg-path', '/tmp/tmpl5x9ejhy', '--error-file', '/tmp/tmpqao1lwkt']
+[2023-02-23 11:57:50,063] {standard_task_runner.py:80} INFO - Job 40: Subtask push_market_overview
+[2023-02-23 11:57:50,171] {task_command.py:369} INFO - Running <TaskInstance: get_market_overview.push_market_overview scheduled__2023-02-15T17:00:00+00:00 [running]> on host 003d565768d2
+[2023-02-23 11:57:50,294] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_market_overview
+AIRFLOW_CTX_TASK_ID=push_market_overview
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T17:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-15T17:00:00+00:00
+[2023-02-23 11:57:51,125] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-VN-INDEX' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:51,528] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-HNX-INDEX' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:51,813] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Dow Jones' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:52,096] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-DAX' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:52,618] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-FTSE 100' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:53,129] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-NI225' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:55,430] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-KOSPI' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:55,958] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Shanghai' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:58,444] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Gold (USD/t oz)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:58,761] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Natural Gas (USD/Mmbtu)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:59,392] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Steel (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:57:59,802] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Coal (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:00,512] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Rubber (SGD/kg)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:01,046] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Sugar (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:01,961] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Cotton (USD/lb)' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:07,997] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Bitcoin' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:08,676] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-Dollar Index' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:09,294] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/VND' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:09,884] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/CNY' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:10,960] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-EUR/USD' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:11,322] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/RUB' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:11,630] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-GBP/USD' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:11,944] {logging_mixin.py:115} INFO - (1062, "Duplicate entry '2023-02-23 00:00:00-USD/JPY' for key 'market_overview.PRIMARY'")
+[2023-02-23 11:58:11,944] {logging_mixin.py:115} INFO - DONE!!!
+[2023-02-23 11:58:11,945] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-23 11:58:11,958] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_market_overview, task_id=push_market_overview, execution_date=20230215T170000, start_date=20230223T115749, end_date=20230223T115811
+[2023-02-23 11:58:11,994] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-23 11:58:12,020] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

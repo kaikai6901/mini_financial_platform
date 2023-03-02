@@ -1,0 +1,228 @@
+[2023-03-01 19:22:48,304] {processor.py:153} INFO - Started process (PID=188) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:22:48,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:22:48,306] {logging_mixin.py:115} INFO - [2023-03-01 19:22:48,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:22:48,327] {logging_mixin.py:115} INFO - [2023-03-01 19:22:48,326] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:22:48,328] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:22:48,360] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.062 seconds
+[2023-03-01 19:23:18,640] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:18,640] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:23:18,641] {logging_mixin.py:115} INFO - [2023-03-01 19:23:18,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:18,649] {logging_mixin.py:115} INFO - [2023-03-01 19:23:18,648] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:23:18,649] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:18,672] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.037 seconds
+[2023-03-01 19:23:48,815] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:48,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:23:48,816] {logging_mixin.py:115} INFO - [2023-03-01 19:23:48,816] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:48,823] {logging_mixin.py:115} INFO - [2023-03-01 19:23:48,822] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:23:48,823] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:23:48,843] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.030 seconds
+[2023-03-01 19:24:18,994] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:18,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:24:18,995] {logging_mixin.py:115} INFO - [2023-03-01 19:24:18,995] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:18,999] {logging_mixin.py:115} INFO - [2023-03-01 19:24:18,999] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:24:19,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:19,024] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.031 seconds
+[2023-03-01 19:24:49,173] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:49,174] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:24:49,174] {logging_mixin.py:115} INFO - [2023-03-01 19:24:49,174] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:49,182] {logging_mixin.py:115} INFO - [2023-03-01 19:24:49,181] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:24:49,183] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:24:49,197] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.027 seconds
+[2023-03-01 19:25:19,386] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:19,386] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:25:19,387] {logging_mixin.py:115} INFO - [2023-03-01 19:25:19,387] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:19,393] {logging_mixin.py:115} INFO - [2023-03-01 19:25:19,392] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:25:19,393] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:19,409] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.026 seconds
+[2023-03-01 19:25:49,648] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:49,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:25:49,649] {logging_mixin.py:115} INFO - [2023-03-01 19:25:49,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:49,654] {logging_mixin.py:115} INFO - [2023-03-01 19:25:49,653] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_financial_ratio_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_financial_ratio_dag.py", line 7, in <module>
+    from scripts.get_financial_ratio import *
+  File "/opt/airflow/dags/scripts/get_financial_ratio.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:25:49,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:25:49,670] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.024 seconds
+[2023-03-01 19:26:19,817] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:19,818] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:26:19,818] {logging_mixin.py:115} INFO - [2023-03-01 19:26:19,818] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:20,151] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:20,214] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,213] {manager.py:508} INFO - Created Permission View: can edit on DAG:get_financial_ratio
+[2023-03-01 19:26:20,222] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,222] {manager.py:508} INFO - Created Permission View: can delete on DAG:get_financial_ratio
+[2023-03-01 19:26:20,228] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,228] {manager.py:508} INFO - Created Permission View: can read on DAG:get_financial_ratio
+[2023-03-01 19:26:20,229] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,229] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:26:20,236] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,236] {dag.py:2390} INFO - Creating ORM DAG for get_financial_ratio
+[2023-03-01 19:26:20,247] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,247] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:26:20,259] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.444 seconds
+[2023-03-01 19:26:51,262] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:51,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:26:51,263] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,263] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:51,630] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:26:51,650] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,650] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:26:51,669] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,669] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:26:51,679] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.421 seconds
+[2023-03-01 19:27:22,190] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:22,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:27:22,191] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,191] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:22,520] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:22,537] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,537] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:27:22,560] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,560] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:27:22,570] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.382 seconds
+[2023-03-01 19:27:53,059] {processor.py:153} INFO - Started process (PID=498) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:53,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:27:53,060] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,060] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:53,411] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:27:53,428] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,428] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:27:53,448] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,448] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:27:53,487] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.430 seconds
+[2023-03-01 19:28:23,673] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:23,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:28:23,675] {logging_mixin.py:115} INFO - [2023-03-01 19:28:23,674] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:24,006] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:24,025] {logging_mixin.py:115} INFO - [2023-03-01 19:28:24,025] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:28:24,044] {logging_mixin.py:115} INFO - [2023-03-01 19:28:24,044] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:28:24,177] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.506 seconds
+[2023-03-01 19:28:54,322] {processor.py:153} INFO - Started process (PID=558) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:54,322] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:28:54,322] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:54,742] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:28:54,770] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,770] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:28:54,807] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,806] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:28:55,029] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.711 seconds
+[2023-03-01 19:29:25,227] {processor.py:153} INFO - Started process (PID=588) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:25,228] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:29:25,228] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,228] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:25,554] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:25,570] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,569] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:29:25,588] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,588] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:29:25,598] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.375 seconds
+[2023-03-01 19:29:56,106] {processor.py:153} INFO - Started process (PID=618) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:56,106] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:29:56,107] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,106] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:56,531] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:29:56,549] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,549] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:29:56,571] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,570] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:29:56,584] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.481 seconds
+[2023-03-01 19:30:27,084] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:27,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:30:27,085] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:27,428] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:27,444] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,443] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:30:27,463] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,463] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:30:27,474] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.394 seconds
+[2023-03-01 19:30:57,879] {processor.py:153} INFO - Started process (PID=678) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:57,880] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:30:57,880] {logging_mixin.py:115} INFO - [2023-03-01 19:30:57,880] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:58,226] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:30:58,242] {logging_mixin.py:115} INFO - [2023-03-01 19:30:58,241] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:30:58,261] {logging_mixin.py:115} INFO - [2023-03-01 19:30:58,261] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:30:58,270] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.394 seconds
+[2023-03-01 19:31:28,791] {processor.py:153} INFO - Started process (PID=708) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:28,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:31:28,792] {logging_mixin.py:115} INFO - [2023-03-01 19:31:28,792] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:29,108] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:29,123] {logging_mixin.py:115} INFO - [2023-03-01 19:31:29,122] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:31:29,144] {logging_mixin.py:115} INFO - [2023-03-01 19:31:29,143] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:31:29,162] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.374 seconds
+[2023-03-01 19:31:59,652] {processor.py:153} INFO - Started process (PID=738) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:59,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:31:59,653] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,653] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:59,929] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:31:59,943] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,943] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:31:59,962] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,962] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:31:59,975] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.325 seconds
+[2023-03-01 19:32:30,475] {processor.py:153} INFO - Started process (PID=768) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:32:30,475] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:32:30,476] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,476] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:32:30,919] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:32:30,936] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,935] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:32:30,956] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,956] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:32:30,968] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.497 seconds
+[2023-03-01 19:33:01,250] {processor.py:153} INFO - Started process (PID=798) to work on /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:33:01,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_financial_ratio_dag.py for tasks to queue
+[2023-03-01 19:33:01,251] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,251] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:33:01,552] {processor.py:651} INFO - DAG(s) dict_keys(['get_financial_ratio']) retrieved from /opt/airflow/dags/get_financial_ratio_dag.py
+[2023-03-01 19:33:01,567] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,567] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:33:01,587] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,587] {dag.py:2919} INFO - Setting next_dagrun for get_financial_ratio to 2023-02-26T22:00:00+00:00, run_after=2023-03-05T22:00:00+00:00
+[2023-03-01 19:33:01,603] {processor.py:161} INFO - Processing /opt/airflow/dags/get_financial_ratio_dag.py took 0.355 seconds

@@ -1,0 +1,228 @@
+[2023-03-01 19:22:48,299] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:22:48,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:22:48,301] {logging_mixin.py:115} INFO - [2023-03-01 19:22:48,301] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:22:48,330] {logging_mixin.py:115} INFO - [2023-03-01 19:22:48,329] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:22:48,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:22:48,368] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.074 seconds
+[2023-03-01 19:23:18,635] {processor.py:153} INFO - Started process (PID=212) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:18,635] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:23:18,636] {logging_mixin.py:115} INFO - [2023-03-01 19:23:18,636] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:18,647] {logging_mixin.py:115} INFO - [2023-03-01 19:23:18,646] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:23:18,647] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:18,676] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.046 seconds
+[2023-03-01 19:23:48,810] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:48,810] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:23:48,811] {logging_mixin.py:115} INFO - [2023-03-01 19:23:48,811] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:48,816] {logging_mixin.py:115} INFO - [2023-03-01 19:23:48,816] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:23:48,817] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:23:48,832] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.024 seconds
+[2023-03-01 19:24:18,991] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:18,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:24:18,994] {logging_mixin.py:115} INFO - [2023-03-01 19:24:18,994] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:18,999] {logging_mixin.py:115} INFO - [2023-03-01 19:24:18,999] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:24:19,000] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:19,014] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.026 seconds
+[2023-03-01 19:24:49,168] {processor.py:153} INFO - Started process (PID=302) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:49,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:24:49,172] {logging_mixin.py:115} INFO - [2023-03-01 19:24:49,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:49,181] {logging_mixin.py:115} INFO - [2023-03-01 19:24:49,180] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:24:49,181] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:24:49,197] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.032 seconds
+[2023-03-01 19:25:19,382] {processor.py:153} INFO - Started process (PID=327) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:19,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:25:19,383] {logging_mixin.py:115} INFO - [2023-03-01 19:25:19,383] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:19,389] {logging_mixin.py:115} INFO - [2023-03-01 19:25:19,388] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:25:19,389] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:19,408] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.029 seconds
+[2023-03-01 19:25:49,648] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:49,648] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:25:49,649] {logging_mixin.py:115} INFO - [2023-03-01 19:25:49,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:49,655] {logging_mixin.py:115} INFO - [2023-03-01 19:25:49,655] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/get_foreign_transaction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_foreign_transaction_dag.py", line 7, in <module>
+    from scripts.get_foreign_transaction import *
+  File "/opt/airflow/dags/scripts/get_foreign_transaction.py", line 2, in <module>
+    from scripts.utils.helper import *
+  File "/opt/airflow/dags/scripts/utils/helper.py", line 4, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[2023-03-01 19:25:49,656] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:25:49,675] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.030 seconds
+[2023-03-01 19:26:19,812] {processor.py:153} INFO - Started process (PID=405) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:19,812] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:26:19,813] {logging_mixin.py:115} INFO - [2023-03-01 19:26:19,813] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:20,161] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:20,217] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,217] {manager.py:508} INFO - Created Permission View: can edit on DAG:get_foreign_transaction
+[2023-03-01 19:26:20,226] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,226] {manager.py:508} INFO - Created Permission View: can delete on DAG:get_foreign_transaction
+[2023-03-01 19:26:20,232] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,232] {manager.py:508} INFO - Created Permission View: can read on DAG:get_foreign_transaction
+[2023-03-01 19:26:20,233] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,232] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:26:20,239] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,239] {dag.py:2390} INFO - Creating ORM DAG for get_foreign_transaction
+[2023-03-01 19:26:20,250] {logging_mixin.py:115} INFO - [2023-03-01 19:26:20,250] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:26:20,262] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.455 seconds
+[2023-03-01 19:26:51,256] {processor.py:153} INFO - Started process (PID=435) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:51,260] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:26:51,261] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,260] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:51,647] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:26:51,667] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,667] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:26:51,693] {logging_mixin.py:115} INFO - [2023-03-01 19:26:51,693] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:26:51,702] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.449 seconds
+[2023-03-01 19:27:22,186] {processor.py:153} INFO - Started process (PID=465) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:22,190] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:27:22,190] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,190] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:22,544] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:22,561] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,560] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:27:22,582] {logging_mixin.py:115} INFO - [2023-03-01 19:27:22,582] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:27:22,594] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.410 seconds
+[2023-03-01 19:27:53,055] {processor.py:153} INFO - Started process (PID=495) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:53,056] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:27:53,056] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:53,403] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:27:53,421] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,421] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:27:53,441] {logging_mixin.py:115} INFO - [2023-03-01 19:27:53,441] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:27:53,486] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.435 seconds
+[2023-03-01 19:28:23,669] {processor.py:153} INFO - Started process (PID=525) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:23,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:28:23,673] {logging_mixin.py:115} INFO - [2023-03-01 19:28:23,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:23,984] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:24,006] {logging_mixin.py:115} INFO - [2023-03-01 19:28:24,006] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:28:24,029] {logging_mixin.py:115} INFO - [2023-03-01 19:28:24,029] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:28:24,175] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.510 seconds
+[2023-03-01 19:28:54,315] {processor.py:153} INFO - Started process (PID=555) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:54,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:28:54,316] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,316] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:54,733] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:28:54,761] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,761] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:28:54,800] {logging_mixin.py:115} INFO - [2023-03-01 19:28:54,800] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:28:55,028] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.714 seconds
+[2023-03-01 19:29:25,222] {processor.py:153} INFO - Started process (PID=585) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:25,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:29:25,226] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,226] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:25,538] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:25,553] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,552] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:29:25,572] {logging_mixin.py:115} INFO - [2023-03-01 19:29:25,572] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:29:25,585] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.366 seconds
+[2023-03-01 19:29:56,100] {processor.py:153} INFO - Started process (PID=615) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:56,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:29:56,104] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:56,521] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:29:56,541] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,540] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:29:56,563] {logging_mixin.py:115} INFO - [2023-03-01 19:29:56,563] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:29:56,574] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.476 seconds
+[2023-03-01 19:30:27,078] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:27,082] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:30:27,082] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,082] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:27,425] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:27,441] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,441] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:30:27,461] {logging_mixin.py:115} INFO - [2023-03-01 19:30:27,461] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:30:27,474] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.399 seconds
+[2023-03-01 19:30:57,875] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:57,878] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:30:57,879] {logging_mixin.py:115} INFO - [2023-03-01 19:30:57,879] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:58,210] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:30:58,227] {logging_mixin.py:115} INFO - [2023-03-01 19:30:58,226] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:30:58,246] {logging_mixin.py:115} INFO - [2023-03-01 19:30:58,246] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:30:58,257] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.385 seconds
+[2023-03-01 19:31:28,786] {processor.py:153} INFO - Started process (PID=705) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:28,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:31:28,787] {logging_mixin.py:115} INFO - [2023-03-01 19:31:28,787] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:29,104] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:29,119] {logging_mixin.py:115} INFO - [2023-03-01 19:31:29,118] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:31:29,142] {logging_mixin.py:115} INFO - [2023-03-01 19:31:29,142] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:31:29,160] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.377 seconds
+[2023-03-01 19:31:59,648] {processor.py:153} INFO - Started process (PID=735) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:59,651] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:31:59,652] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,652] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:59,950] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:31:59,966] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,966] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:31:59,986] {logging_mixin.py:115} INFO - [2023-03-01 19:31:59,986] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:31:59,994] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.349 seconds
+[2023-03-01 19:32:30,468] {processor.py:153} INFO - Started process (PID=765) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:32:30,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:32:30,485] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:32:30,920] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:32:30,936] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,935] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:32:30,956] {logging_mixin.py:115} INFO - [2023-03-01 19:32:30,956] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:32:30,968] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.503 seconds
+[2023-03-01 19:33:01,246] {processor.py:153} INFO - Started process (PID=795) to work on /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:33:01,249] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_foreign_transaction_dag.py for tasks to queue
+[2023-03-01 19:33:01,249] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,249] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:33:01,566] {processor.py:651} INFO - DAG(s) dict_keys(['get_foreign_transaction']) retrieved from /opt/airflow/dags/get_foreign_transaction_dag.py
+[2023-03-01 19:33:01,581] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,581] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-03-01 19:33:01,603] {logging_mixin.py:115} INFO - [2023-03-01 19:33:01,603] {dag.py:2919} INFO - Setting next_dagrun for get_foreign_transaction to 2023-02-23T10:00:00+00:00, run_after=2023-02-24T10:00:00+00:00
+[2023-03-01 19:33:01,616] {processor.py:161} INFO - Processing /opt/airflow/dags/get_foreign_transaction_dag.py took 0.373 seconds

@@ -1,0 +1,23 @@
+[2023-02-28 09:00:01,397] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_price_board.push_price_board scheduled__2023-02-27T09:00:00+00:00 [queued]>
+[2023-02-28 09:00:01,404] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_price_board.push_price_board scheduled__2023-02-27T09:00:00+00:00 [queued]>
+[2023-02-28 09:00:01,404] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28 09:00:01,404] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-28 09:00:01,404] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-28 09:00:01,415] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): push_price_board> on 2023-02-27 09:00:00+00:00
+[2023-02-28 09:00:01,419] {standard_task_runner.py:52} INFO - Started process 49277 to run task
+[2023-02-28 09:00:01,420] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'get_price_board', 'push_price_board', 'scheduled__2023-02-27T09:00:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/get_price_dag.py', '--cfg-path', '/tmp/tmp70jjw_7r', '--error-file', '/tmp/tmpb846j2mi']
+[2023-02-28 09:00:01,421] {standard_task_runner.py:80} INFO - Job 14: Subtask push_price_board
+[2023-02-28 09:00:01,460] {task_command.py:369} INFO - Running <TaskInstance: get_price_board.push_price_board scheduled__2023-02-27T09:00:00+00:00 [running]> on host 5b61798a1106
+[2023-02-28 09:00:01,516] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=get_price_board
+AIRFLOW_CTX_TASK_ID=push_price_board
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-27T09:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-27T09:00:00+00:00
+[2023-02-28 09:00:09,842] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-28 09:00:09,852] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=get_price_board, task_id=push_price_board, execution_date=20230227T090000, start_date=20230228T090001, end_date=20230228T090009
+[2023-02-28 09:00:09,897] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-28 09:00:09,945] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
